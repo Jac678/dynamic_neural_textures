@@ -1,0 +1,3 @@
+# MANIFEST.in
+include physics_aware_upscaler.py
+

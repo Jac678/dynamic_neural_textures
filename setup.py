@@ -9,6 +9,7 @@ setup(
     author_email='your_email@example.com',
     url='https://github.com/Jac678/dynamic_neural_textures',
     packages=find_packages(),
+    py_modules=['physics_aware_upscaler'],
     install_requires=[
         'torch>=1.8.0',
         'torchvision',
