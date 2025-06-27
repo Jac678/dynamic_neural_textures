@@ -1,6 +1,7 @@
 # physics_aware_upscaler.py
 import torch
 import torch.nn as nn
+from typing import Tuple
 from dynamic_neural_textures import DynamicNeuralTexture, DNTRenderer
 
 class PhysicsAwareUpscaler(nn.Module):
