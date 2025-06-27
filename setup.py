@@ -9,15 +9,18 @@ setup(
     author_email='your_email@example.com',
     url='https://github.com/Jac678/dynamic_neural_textures',
     packages=find_packages(),
-    py_modules=['physics_aware_upscaler'],
+    py_modules=[
+        'physics_aware_upscaler',
+        'optical_flow'  
+    ],
     install_requires=[
         'torch>=1.8.0',
         'torchvision',
         'numpy',
         'matplotlib',
         'opencv-python',
-        'pybullet',  # 根据你的依赖添加
-        'warp-lang'  # 如果需要Warp库
+        'pybullet',
+        'warp-lang'
     ],
 )
 
