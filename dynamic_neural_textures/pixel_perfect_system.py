@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from dynamic_neural_textures import DynamicNeuralTexture, DNTRenderer
 from dynamic_neural_textures.utils import visualize_texture_evolution
+from dynamic_neural_textures.optical_flow import RAFTFlowEstimator
 
 # 设置设备
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
