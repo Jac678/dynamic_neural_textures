@@ -1,1 +1,0 @@
-# dynamic_neural_textures
