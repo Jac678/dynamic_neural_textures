@@ -1,6 +1,7 @@
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
+from typing import Tuple, List, Optional
 from matplotlib.animation import FuncAnimation
 import cv2
 from .dynamic_texture import DynamicNeuralTexture
